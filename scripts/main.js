@@ -13,21 +13,21 @@
 // del usuario (solo guarda un usuario)
 const formNombre = document.getElementById('nombre')
 console.log(formNombre)
-const formButtonEnviar = document.getElementById('btsend')
+// const formButtonEnviar = document.getElementById('btsend')
 
-function onSubmit(e) {
-    e.preventDefault()
-    console.log('hola')
-}
-btn.addEventListener('click',onSubmit)
+// function onSubmit(e) {
+//     e.preventDefault()
+//     console.log('hola')
+// }
+// btn.addEventListener('click',onSubmit)
 
 function onSubmit(e) {
     e.preventDefault();
     const firstNameValue = inputFirstName.value;
     console.log(firstNameValue);
-} 
-function onSubmit(e) {
-    e.preventDefault()
-    const firstNameValue = inputFirstName.value
-    localStorage.setItem('firstName',firstNameValue)
-   }
+// } 
+// function onSubmit(e) {
+//     e.preventDefault()
+//     const firstNameValue = inputFirstName.value
+//     localStorage.setItem('firstName',firstNameValue)
+//    }
