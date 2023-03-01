@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>LOCAL-STORAGE</title>
+</head>
+
+<body>
+    <h1>Ejercicios LOCAL-STORAGE |<span class="ok">OK</span>|<span class="varios">VARIAS SOL.</span>|<span
+            class="imposible">IMPOSIBLE</span>|</h1><br>
+
+    <h3>Formulario de contacto - Local Storage</h3></BR>
+    <header>
+        <h3 class="ok">1 - Crear un formulario de contacto con los siguientes campos: <br>
+            Nombre <br>
+            Correo <br>
+            Mensaje <br><br>
+        </h3>
+        <h3>2 - Guardar en Local Storage los datos de contacto rellenados del usuario (solo guarda un usuario)</h3><br>
+
+        <h3>3 - Muestra el usuario que has guardado en el DOM</h3><br>
+
+        <h3>--- Pista: usa JSON.parse() y JSON.stringify() para guardar muchos datos usando la misma clave ---- </h3><br>
+        <h3>EXTRA</h3><br>
+        <h3>4 - Guardar en Local Storage los datos de contacto enviados de cada usuario (ir guardandolos todos)</h3><br>
+        <h3>5 - Mostrar los datos de los contactos guardados en el DOM</h3><br>
+        <h3>6 - Crea un botón para borrar todos los contactos guardados en Local Storage</h3><br><br>
+
+
+        <h3 class="ok"></h3>
+        <h3 class="varios"></h3>
+        <h3 class="imposible">
+            </h3>
+        </h3>
+    </header>
+    
+    <main>
+        
+        <h3>FORMULARIO</h3><BR>
+<form>
+    <label for="nombre">NOMBRE</label>
+    <input type="text" name="tuNombre" id="nombre" tabindex="1" autofocus><BR><br>
+    <label for="mail">CORREO ELECTRÓNICO</label>
+    <input type="email" name="tuMail" id="mail" tabindex="2"><br><br>
+<label for="txtarea">TU MENSAJE</label>
+    <textarea name="mensaje" id="txtarea" cols="30" rows="10" tabindex="3"></textarea><BR></BR>
+ <button type="submit" id="btsend">ENVIAR</button>
+<button id="btreset">RESET</button>
+
+</form>
+    </main>
+    <script src="/scripts/main.js"></script>
+</body>
+
+</html>
